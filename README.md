@@ -1,4 +1,120 @@
 # MINI-PROJECT
+# HARWARDMINIPROJECT
+
+A static multi-page website built with HTML and CSS. Each page has its own CSS file and also includes `base.css` for shared/global styles.
+
+## Quick overview
+
+- **Tech stack:** HTML + CSS
+- **Structure:** Separate HTML pages with page-specific CSS and shared styles in `base.css`
+- **Assets:** Images organized by page in the `Assets/` directory
+
+## Pages and ownership
+
+### Samarth (150096725148)
+- **Shared** → `base.css` (included in every page for header and footer)
+- **Index** → `index.html` + `index.css`
+- **Community** → `community.html` + `community.css`
+- **Programs & Events** → **CSS only** (`programs.css`)
+
+### Ashish (150096725109)
+- **College** → `college.html` + `college.css`
+- **Graduate Schools** → `graduate.html` + `graduate.css`
+- **Programs & Events** → **HTML only** (`programs.html`)
+
+### Saad (150096725112)
+- **Community Login** → `comlogin.html` + `comlogin.css`
+- **Register** → `register.html` + `register.css`
+- **Images allocation** → See `Assets/` tree below
+
+
+## Stylesheet usage
+
+- `base.css` contains global styles shared by every page.
+- Each page has its own CSS file for page-specific layout and visuals:
+  - `index.css`
+  - `community.css`
+  - `college.css`
+  - `graduate.css`
+  - `programs.css`
+  - `comlogin.css`
+  - `register.css`
+
+## File structure
+
+```
+HARWARDMINIPROJECT/
+├── base.css
+├── college.css
+├── college.html
+├── comlogin.css
+├── comlogin.html
+├── community.css
+├── community.html
+├── graduate.css
+├── graduate.html
+├── index.css
+├── index.html
+├── programs.css
+├── programs.html
+├── register.css
+├── register.html
+└── Assets/
+    ├── BG.jpeg
+    ├── LOGO.avif
+    ├── favicon.png
+    ├── college/
+    │   ├── 1.avif
+    │   ├── 2.avif
+    │   └── 3.avif
+    ├── community/
+    │   └── 1.jpeg
+    ├── graduate/
+    │   ├── 1.avif
+    │   ├── 2.avif
+    │   ├── 3.avif
+    │   ├── 4.avif
+    │   ├── 5.avif
+    │   ├── 6.avif
+    │   └── 7.avif
+    ├── index/
+    │   ├── 1.avif
+    │   ├── 2.avif
+    │   ├── 3.avif
+    │   ├── 4.avif
+    │   ├── 5.avif
+    │   ├── 6.avif
+    │   ├── 7.avif
+    │   └── 8.avif
+    └── programs/
+        ├── 1.avif
+        ├── 2.avif
+        ├── 3.avif
+        ├── 4.avif
+        ├── 5.avif
+        ├── 6.avif
+        ├── 7.avif
+        ├── 8.avif
+        ├── 9.avif
+        ├── 10.avif
+        ├── 11.avif
+        ├── 12.avif
+        ├── 13.avif
+        ├── 14.avif
+        ├── 15.avif
+        ├── 16.avif
+        ├── 17.avif
+        ├── 18.avif
+        ├── 19.avif
+        ├── 20.avif
+        └── 21.avif
+```
+
+## Notes
+
+- All HTML pages should link to `base.css` plus their respective page CSS.
+- The `Assets/` folder keeps images grouped per page for easy maintenance.
+
 <img width="1470" height="956" alt="Screenshot 2026-02-09 at 8 31 45 PM" src="https://github.com/user-attachments/assets/d4c7c4d3-80ba-48cf-9f8d-a115e524716c" />
 <img width="1470" height="956" alt="Screenshot 2026-02-09 at 8 31 39 PM" src="https://github.com/user-attachments/assets/f5daadd8-24a9-45c8-aafa-95576ce09713" />
 <img width="1470" height="956" alt="Screenshot 2026-02-09 at 8 31 31 PM" src="https://github.com/user-attachments/assets/660a4fc5-e5e2-459a-bb50-f13acfb7951c" />
